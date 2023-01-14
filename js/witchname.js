@@ -17,6 +17,10 @@ function getLifePathNumber(date)
 }
 
 $(function() {
+    $( "div.themes span" ).on("click", function () {
+        document.body.className = this.className;
+    });
+
     $( "input.birthday" ).on("input", function () {
         var birthday = $(this).val();
         var lifepath = getLifePathNumber(birthday);

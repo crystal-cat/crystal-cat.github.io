@@ -1,0 +1,38 @@
+body.love {
+    background-color: #ffc6f3;
+    color: #6d2aa5;
+    font-family: cursive;
+}
+
+body.mystic {
+    background-color: #552b68;
+    color: #d5a3ff;
+    font-family: serif;
+}
+
+body.dark {
+    background-color: #000;
+    color: #a2003c;
+    font-family: serif;
+}
+
+body.earthy {
+    background-color: #866161;
+    color: #bdbda9;
+    font-family: sans-serif;
+}
+
+body.passionate {
+    background-color: #820000;
+    color: #f042c5;
+    font-family: sans-serif;
+}
+
+body.mystic input[type="date"] { 
+    background: #a177b5;
+}
+
+body.dark input[type="date"] { 
+    background: #803434;
+}
+

@@ -87,3 +87,38 @@ body.forest div.lifepathnum {
 body.passionate div.lifepathnum {
     border-color: #b01aa0;
 }
+
+body.love textarea {
+    background-color: #ffb6f4;
+    color: #c525ff;
+}
+
+body.mystic textarea {
+    background-color: #351a31;
+    color: #d688f2;
+}
+
+body.tech textarea {
+    background-color: #222;
+    color: #3ab9ea;
+}
+
+body.dark textarea {
+    background-color: #000;
+    color: #b5035f;
+}
+
+body.earthy textarea {
+    background-color: #463f3f;
+    color: #df946f;
+}
+
+body.forest textarea {
+    background-color: #9cc4b7;
+    color: #6f633f;
+}
+
+body.passionate textarea {
+    background-color: #2f0f11;
+    color: #ff1212;
+}

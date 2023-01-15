@@ -60,3 +60,30 @@ body.passionate input[type="date"] {
     background: #ea9fe2;
 }
 
+body.love div.lifepathnum {
+    border-color: #ff83f1;
+}
+
+body.mystic div.lifepathnum {
+    border-color: #c3acd7;
+}
+
+body.tech div.lifepathnum {
+    border-color: #9ba1ff;
+}
+
+body.dark div.lifepathnum {
+    border-color: #731a1a;
+}
+
+body.earthy div.lifepathnum {
+    border-color: #917575;
+}
+
+body.forest div.lifepathnum {
+    border-color: #a7c1b8;
+}
+
+body.passionate div.lifepathnum {
+    border-color: #b01aa0;
+}

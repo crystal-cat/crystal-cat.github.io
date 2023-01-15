@@ -24,7 +24,12 @@ $(function() {
     $( "input.birthday" ).on("input", function () {
         var birthday = $(this).val();
         var lifepath = getLifePathNumber(birthday);
-        $("span.lifepathnum").html(lifepath);
+        var $element = $(".lifepathnum");
+
+        $element.html(lifepath);
+        $element.animate({
+            opacity: 1
+        }, 3000 );
     });
 });
 

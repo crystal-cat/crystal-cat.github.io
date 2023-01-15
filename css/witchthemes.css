@@ -6,7 +6,13 @@ body.love {
 
 body.mystic {
     background-color: #552b68;
-    color: #d5a3ff;
+    color: #b799d0;
+    font-family: serif;
+}
+
+body.tech {
+    background-color: #17577d;
+    color: #b3b5db;
     font-family: serif;
 }
 
@@ -17,22 +23,40 @@ body.dark {
 }
 
 body.earthy {
-    background-color: #866161;
+    background-color: #443737;
+    color: #808071;
+    font-family: sans-serif;
+}
+
+body.forest {
+    background-color: #648661;
     color: #bdbda9;
     font-family: sans-serif;
 }
 
 body.passionate {
-    background-color: #820000;
-    color: #f042c5;
+    background-color: #3c0505;
+    color: #df00dc;
     font-family: sans-serif;
 }
 
-body.mystic input[type="date"] { 
+body.mystic input[type="date"] {
     background: #a177b5;
 }
 
-body.dark input[type="date"] { 
+body.tech input[type="date"] {
+    background: #7787b5;
+}
+
+body.dark input[type="date"] {
     background: #803434;
+}
+
+body.earthy input[type="date"] {
+    background: #976b6b;
+}
+
+body.passionate input[type="date"] {
+    background: #ea9fe2;
 }
 

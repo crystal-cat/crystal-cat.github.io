@@ -122,3 +122,38 @@ body.passionate textarea {
     background-color: #2f0f11;
     color: #ff1212;
 }
+
+body.love button {
+    color: #f730f0;
+    background-color: #fff;
+}
+
+body.mystic button {
+    color: #f5d2f4;
+    background-color: #824584;
+}
+
+body.tech button {
+    color: #e8e8e8;
+    background-color: #4c4ea0;
+}
+
+body.dark button {
+    color: #f50808;
+    background-color: #1e1e1e;
+}
+
+body.earthy button {
+    color: #d9b3b3;
+    background-color: #5e3838;
+}
+
+body.forest button {
+    color: #d3ccb9;
+    background-color: #4d937c;
+}
+
+body.passionate button {
+    color: #fb6ef9;
+    background-color: #3e2626;
+}

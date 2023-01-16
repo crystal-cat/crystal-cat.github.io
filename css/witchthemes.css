@@ -60,6 +60,41 @@ body.passionate input[type="date"] {
     background: #ea9fe2;
 }
 
+body.love .love {
+    border-color: #ff00e2;
+    border-width: 3px;
+}
+
+body.mystic .mystic {
+    border-color: #b0f;
+    border-width: 3px;
+}
+
+body.tech .tech {
+    border-color: #83bfff;
+    border-width: 3px;
+}
+
+body.dark .dark {
+    border-color: #f00;
+    border-width: 3px;
+}
+
+body.earthy .earthy {
+    border-color: #aa7f7f;
+    border-width: 3px;
+}
+
+body.forest .forest {
+    border-color: #87d397;
+    border-width: 3px;
+}
+
+body.passionate .passionate {
+    border-color: #e469e8;
+    border-width: 3px;
+}
+
 body.love div.lifepathnum {
     border-color: #ff83f1;
 }

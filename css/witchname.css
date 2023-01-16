@@ -73,3 +73,8 @@ button {
     border-radius: 11px;
     display: inline-block;
 }
+
+div.results {
+    margin-top: 1em;
+    margin-left: 1em;
+}

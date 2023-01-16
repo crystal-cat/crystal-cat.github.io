@@ -80,7 +80,7 @@ $(function() {
             return;
         }
 
-        var words = $(".words").val().split(/\s+/);
+        var words = $(".words").val().split(/\s+/).filter((x => { return x !== ""; }));
         if (words.length === 0)
         {
             $results.html("Please enter some meaningful words for you!");
@@ -101,7 +101,10 @@ $(function() {
             }
         }
 
-        $results.html(names.join('<br>'));
+        if (names.length === 0)
+            $results.html("We couldn't make up any names matching your life path number! Sorry... try adding more words, it might help.");
+        else
+            $results.html(names.join('<br>'));
     });
 
     updateLifePathNumber();

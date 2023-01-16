@@ -80,7 +80,7 @@ $(function() {
             return;
         }
 
-        var words = $(".words").val().split(/\s+/).filter((x => { return x !== ""; }));
+        var words = $(".words").val().split(/[ \t\n\r,]/).filter((x => { return x !== ""; }));
         if (words.length === 0)
         {
             $results.html("Please enter some meaningful words for you!");

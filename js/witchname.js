@@ -36,9 +36,18 @@ function getLifePathNumber(date)
 
 function updateLifePathNumber()
 {
-    var birthday = $(".birthday").val();
-    var lifepath = getLifePathNumber(birthday);
     var $element = $(".lifepathnum");
+    var birthday = $(".birthday").val();
+
+    if (birthday == "")
+    {
+        $element.css({
+            opacity: 0
+        }, 3000 );
+        return;
+    }
+
+    var lifepath = getLifePathNumber(birthday);
 
     $element.html(lifepath);
     $element.animate({
@@ -58,14 +67,14 @@ $(function() {
         document.body.className = this.className;
     });
 
-    $( "input.birthday" ).on("input", function () {
+    $( "input.birthday" ).on("input blur", function () {
         updateLifePathNumber();
     });
 
     $( ".calculate" ).on("click", function () {
         var $results = $(".results");
         var lifepath = updateLifePathNumber();
-        if (lifepath === "")
+        if (!lifepath)
         {
             $results.html("Please enter your birthday and find out your Life Path number first!");
             return;
@@ -94,5 +103,7 @@ $(function() {
 
         $results.html(names.join('<br>'));
     });
+
+    updateLifePathNumber();
 });
 
